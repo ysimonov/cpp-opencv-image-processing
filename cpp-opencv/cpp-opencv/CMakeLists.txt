@@ -2,8 +2,9 @@
 
 PROJECT( cpp-opencv )
 
-SET( NAME_SOURCE "src/main.cpp" )
 SET( NAME_HEADERS "include/header.hpp" )
+SET( NAME_MAIN "src/main.cpp" )
+SET( NAME_IMAGE_SCANNER "src/image_scanner.cpp" )
 
 # allows cmake to automatically find opencv header files and libraries
 find_package( OpenCV REQUIRED )
@@ -12,7 +13,7 @@ find_package( OpenCV REQUIRED )
 INCLUDE_DIRECTORIES( ${OpenCV_INCLUDE_DIRS} )
 
 # Add source to this project's executable.
-add_executable( cpp-opencv ${NAME_SOURCE} ${NAME_HEADERS} )
+add_executable( cpp-opencv ${NAME_HEADERS} ${NAME_MAIN} ${NAME_IMAGE_SCANNER} )
 
 # link opencv libraries
 target_link_libraries( cpp-opencv ${OpenCV_LIBS} )
