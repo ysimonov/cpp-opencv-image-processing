@@ -1,5 +1,0 @@
-C:/Users/simon/Documents/Code/cpp-opencv-image-processing/cpp-opencv/out/build/x64-debug/CMakeFiles/edit_cache.dir
-C:/Users/simon/Documents/Code/cpp-opencv-image-processing/cpp-opencv/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/simon/Documents/Code/cpp-opencv-image-processing/cpp-opencv/out/build/x64-debug/cpp-opencv/CMakeFiles/cpp-opencv.dir
-C:/Users/simon/Documents/Code/cpp-opencv-image-processing/cpp-opencv/out/build/x64-debug/cpp-opencv/CMakeFiles/edit_cache.dir
-C:/Users/simon/Documents/Code/cpp-opencv-image-processing/cpp-opencv/out/build/x64-debug/cpp-opencv/CMakeFiles/rebuild_cache.dir
